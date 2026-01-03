@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdifatah | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <img src="images-removebg-preview.png" class="logo" alt="Logo">
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#portfolio">DESIGNS</a></li>
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="#contact" class="hire-btn">HIRE ME</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="detail">
+      <h1>Hello, I’m <span>Abdifatah Muhumed</span></h1>
+      <p>A student web developer focused on clean and modern design.</p>
+      <p>I build simple websites and digital designs.</p>
+      <a href="#portfolio" class="btn">View My Designs</a>
+      <a href="my-cv.pdf" download class="btn">Download CV</a>
+    </div>
+    <div class="images">
+      <img src="only logo.jpg" class="my design" alt="Hero Image">
+    </div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/yourprofile/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/TAAXO11"><i class="fa-brands fa-github"></i></a>
+      <a href="https://instagram.com/yourprofile" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/yourprofile" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="content-section" id="about">
+    <div class="container">
+      <h1><span>About</span> Me</h1>
+      <p>
+        I am a student and aspiring web developer interested in front-end
+        development and digital design. I enjoy creating clean layouts,
+        user-friendly interfaces, and modern visuals.
+      </p>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO / DESIGNS -->
+  <section class="content-section" id="portfolio">
+    <div class="container">
+      <h1>My <span>Designs</span></h1>
+      <div class="designs">
+        <div class="design-card">
+          <img src="only logo black.png" alt="Design 1">
+          <p>Logo Design 1</p>
+        </div>
+        <div class="design-card">
+          <img src="only logo.jpg" alt="Design 2">
+          <p>Logo Design 2</p>
+        </div>
+        <div class="design-card">
+          <img src="facebook poster.jpg" alt="Design 3">
+          <p>Facebook Poster</p>
+        </div>
+        <div class="design-card">
+          <img src="hotel instagram post.jpg" alt="Design 4">
+          <p>Hotel Instagram Post</p>
+        </div>
+      </div>
+      <p class="small-text">
+        Sample web and graphic designs created for learning and practice.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES (text only) -->
+  <section class="content-section" id="services">
+    <div class="container">
+      <h1>My <span>Services</span></h1>
+      <p>I provide a range of web and digital design services, including:</p>
+      <ul class="services-list">
+        <li>Web Design (HTML & CSS)</li>
+        <li>Responsive Layouts</li>
+        <li>UI / UX Basics</li>
+        <li>Portfolio Websites</li>
+        <li>Graphic Designs & Posters</li>
+      </ul>
+    <div class="services grid">
+        <img src="b6f5b4fd59507360c3753e7738068530-removebg-preview.png" width="200" height="200" alt="Web Design">
+        <img src="CSS-T-shirt-Black-2-removebg-preview (1).png" width="200" height="200" alt="web design">
+        <img src="5968509.png" width="200" height="200" alt="HTML5">
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="content-section" id="contact">
+    <div class="container">
+      <h1><span>Hire</span> Me</h1>
+      <p>Email: <a href="mailto:abdifatah@email.com" class="link">abdifatah@email.com</a></p>
+      <p>Phone: <a href="tel:+252638859116" class="link">+252-63-8859116</a></p>
+      <a href="mailto:abdifatah@email.com" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- STICKY NAV -->
+  <script>
+    window.addEventListener("scroll", function () {
+      document.getElementById("navbar")
+        .classList.toggle("sticky", window.scrollY > 20);
+    });
+  </script>
+
+</body>
+</html>
